@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    
+    background-color: #ffffff;
+    color: #288528; /* Couleur de texte verte pour le titre Eco Green */
+    text-align: center;
+    padding: 20px;
+    
+}
+.green-hamburger {
+    background-color: rgb(51, 136, 51); 
+}
+.smaller-logo {
+    max-width: 80px; /* Ajustez la taille maximale selon vos besoins */
+}
+.larger-image {
+    max-width: 100%; /* Ajustez la largeur maximale selon vos besoins */
+}
+li{
+    list-style-type: none;
+    border-radius: 20px;
+}
+#hamb li {
+    height: 5px; /* Set a suitable height for your hamburger icon */
+    border: solid 1px white;
+    margin: 5px 0;
+}
+
+
+
+li{
+    list-style-type: none;
+    border-radius: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.small-img {
+    max-width: 50px; /* Adjust the maximum width as needed */
+    max-height: 50px; /* Adjust the maximum height as needed */
+}
+.green-background {
+    background-color: green; /* Set the desired background color */
+}
+.larger-image {
+            width: 100%; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+        }
+.larger-title {
+    font-size: 24px; /* ajustez la taille de la police selon vos besoins */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
